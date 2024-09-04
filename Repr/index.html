@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="player">
+        <h2 id="song-title">Cancion - Artista</h2>
+        <audio id="audio" src="musica/Desde Septiembre se siente que viene Diciembre con Olímpica Stereo (128 kbps).mp3"></audio>
+        <div class="controls">
+            <button id="play" class="btn">Play</button>
+            <button id="pause" class="btn">Pause</button>
+            <button id="stop" class="btn">Stop</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress" value="0" max="100">
+        </div>
+    </div>
+    <img id='fuegosArtificiales' src="img/fuegosArtificiales.gif" alt="fuegosArtificiales" class="hidden">
+    <script src="script.js"></script>
+</body>
+</html>

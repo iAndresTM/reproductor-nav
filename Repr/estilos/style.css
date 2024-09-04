@@ -1,0 +1,60 @@
+@font-face {
+    font-family: FontPrinc;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player {
+    text-align: center;
+    background-image: url(../img/fondo_reproductor.jpg);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #881010;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 300ms;
+    box-shadow: 0px 0px 5px ;
+    font-family: FontPrinc;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #702222;
+    box-shadow: 0px 0px 5px #e29a00
+}
+
+.progress-container {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+#fuegosArtificiales{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
